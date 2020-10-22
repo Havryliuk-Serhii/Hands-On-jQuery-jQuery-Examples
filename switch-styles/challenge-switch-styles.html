@@ -1,0 +1,39 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practice jQuery</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function(){
+               $('a').click(function(){
+                    $('link').attr('href', $(this).attr('rel'));
+               });
+            });
+            
+        </script>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Style Switcher</legend>
+            <ul>
+                <li><a href="#" rel="style.css">Defult Theme</a></li>
+                <li><a href="#" rel="a-theme.css">Theme A</a></li>
+                <li><a href="#" rel="b-theme.css">Theme B</a></li>
+            </ul>
+        </fieldset>
+        <div id="box">
+            <h1>The Title</h1>
+            <h2>First SubHeading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quam asperiores velit? Laboriosam sit, reiciendis esse provident adipisci dolorum assumenda est error velit aliquam eligendi hic, rerum veritatis dolores repudiandae minus nihil cum quos eos eaque repellat. Fuga ipsam suscipit neque corrupti deleniti, laboriosam eius minima quaerat. Consequuntur tempora vero eaque quisquam! Atque, possimus voluptatibus! Perspiciatis consequuntur expedita sit nulla, possimus illo atque consequatur repellendus illum distinctio praesentium? Aliquid sit, quo illum iste praesentium commodi rerum vel aperiam accusamus nostrum! Vitae at commodi debitis sequi reiciendis autem officia nihil adipisci.</p>
+            <h2>Second Section</h2>
+            <p>Quae doloremque culpa sequi, voluptatem maxime modi, magnam quos asperiores est consequuntur dicta officia adipisci. Architecto, quae dolorum illo deserunt repellat quidem possimus harum laborum vitae perspiciatis debitis culpa nemo aliquam est voluptate facilis. Quibusdam ex repudiandae incidunt sint optio, dolores dignissimos voluptas at provident molestiae architecto repellat id ut consectetur distinctio. In beatae ratione atque, nobis natus id ad, velit, officia voluptatum soluta sed! Explicabo quidem sint quasi adipisci! Accusamus cupiditate quisquam doloremque unde nemo, molestiae commodi deleniti labore modi impedit aut repellendus amet non. Possimus qui dolorum, esse repudiandae in est. Ipsa mollitia natus at, id optio debitis error a, minima ea cumque quo aspernatur doloribus? </p>
+            <h3>Third Section</h3>
+            <p>Accusantium mollitia officia cum itaque numquam, maxime suscipit! Rem reprehenderit illum accusamus beatae deserunt impedit, doloribus necessitatibus quasi odit earum eligendi maxime eos magni expedita, culpa pariatur velit voluptatem quo eius atque harum reiciendis sequi similique. Praesentium officiis voluptate corrupti culpa ea perferendis voluptatibus a dolorem ducimus reprehenderit fuga, ipsum fugiat aspernatur deserunt velit? Iure magni corporis quia! Quibusdam repellendus modi cum reiciendis omnis, ex sit placeat commodi? Commodi corrupti esse ipsa iste, magnam pariatur suscipit impedit consequuntur? Atque corrupti sapiente dolores suscipit expedita quod explicabo magnam animi quam, nulla repudiandae minima libero maxime provident nihil nemo. </p>
+            <h4>Fourth Section</h4>
+            <p>Doloremque cum corporis repellat minus non officia a dolorem ducimus dolorum ad omnis, nam animi alias dolores tempora pariatur impedit eius facilis! Mollitia laborum, sunt aspernatur, repellat porro quaerat ipsa veniam corporis, quod amet excepturi. Tempore voluptatem saepe quia dicta magni ullam, deserunt enim architecto. Natus odio dolores maxime culpa aperiam officiis nobis ratione iste ea, accusamus tempora illo iure, at recusandae reiciendis ipsam suscipit rem dolor. </p>
+        </div>  
+    </body>
+    </html>
